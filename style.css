@@ -1,0 +1,17 @@
+
+
+.logo{
+    width: 100px;
+}
+
+nav{
+    width: fit-content;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
