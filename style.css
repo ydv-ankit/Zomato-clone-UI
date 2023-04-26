@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,10 @@
 
 .nav-top{
     border: 2px solid red;
-    background: url("images/bg.jpg");
+    background: url("images/bg2.jpg");
+    background-size: cover;
     color: white;
+    height: 400px;
 }
 
 
@@ -41,9 +45,23 @@ nav ul li img{
     margin: 0 10px;
 }
 
+.center-top{
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
 .center-top h1{
     width: fit-content;
     margin: auto;
-    font-size: 95px;
-    font-family: Okra, Helvetica, sans-serif;;
+    font-size: 75px;
+    font-style: italic;
+    font-family: 'Secular One', sans-serif;
+}
+
+.center-top h2{
+    width: fit-content;
+    margin: auto;
+    color: white;
 }
