@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato</title>
     <link rel="shortcut icon" href="https://imgs.search.brave.com/w6bKHxgFe2eKzl_VwHPMzQoJi2xsJBkESionk0qL-CE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/emVlYml6LmNvbS9z/aXRlcy9kZWZhdWx0/L2ZpbGVzLzIwMTgv/MTIvMjcvNjYzNTct/em9tYXRvLWxvZ28u/anBn" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="content.css">
 </head>
 <body>
     <div class="nav-top">
@@ -27,12 +28,45 @@
             <h2>Discover the best food & drinks</h2>
             <div class="search-bar">
                 <img src="images/location.png">
-                <input type="text" placeholder="location">
+                <input type="text" placeholder="nearby">
                 <span>|</span>
                 <img src="images/search.png" alt="search">
-                <input type="text" placeholder="Search for restaurants, cuisine or dish">
+                <input id="bigSearch" type="text" placeholder="Search for restaurants, cuisine or dish">
             </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="images/img.jpg" alt="card">
+            <span>
+                <h3>Order Online</h3>
+                <p>Stay home and order to your doorstep</p>
+            </span>
+        </div>
 
+        <div class="zomato-app">
+            <div class="phone-pic">
+                <img src="images/phone.png" alt="phone">
+            </div>
+            <div class="desc">
+                <h1>Get the Zomato app</h1>
+                <span id="desc-app">We will send you a link, open it on your phone to download the app</span>
+                <div class="form">
+                    <input type="radio" name="contacttype" id="contact">
+                    <label for="email">Email</label>
+                    <input type="radio" name="contacttype" id="contact">
+                    <label for="email">Phone</label>
+                </div>
+                <div class="share-link">
+                    <input type="text" placeholder="Email">
+                    <button>Share App Link</button>
+                </div>
+                <span>Download app from</span>
+                <div class="share-btn">
+                    <Button>Google play store</Button>
+                    <button>App store</button>
+                </div>
+            </div>
         </div>
     </div>
     

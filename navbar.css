@@ -6,11 +6,10 @@
 }
 
 .nav-top{
-    border: 2px solid red;
     background: url("images/bg2.jpg");
     background-size: cover;
     color: white;
-    height: 600px;
+    height: 500px;
 }
 
 
@@ -72,7 +71,7 @@ nav ul li img{
     justify-content: center;
     width: fit-content;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     align-items: center;
     background-color: white;
     border-radius: 10px;
@@ -81,6 +80,7 @@ nav ul li img{
 .search-bar img{
     margin-left: 7px;
     height: 20px;
+    opacity: 0.6;
 }
 
 .search-bar input{
@@ -91,6 +91,11 @@ nav ul li img{
     padding: 15px;
     margin-right: 5px;
 }
+
 .search-bar span{
     color: black;
+}
+
+#bigSearch{
+    width: 280px;
 }
