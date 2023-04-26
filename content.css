@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .content{
     display: flex;
     flex-direction: column;
@@ -40,8 +42,7 @@
     justify-content: center;
     background-color: rgb(219, 181, 143);
     background-color: rgb(255, 251, 247);
-
-    font-family:Arial, Helvetica, sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 .desc{
@@ -64,7 +65,15 @@
 }
 
 .form {
-    font-size: 20px;
+    font-size: 19px;
+}
+
+.form label{
+    margin-left: 5px;
+}
+
+#contactPhone{
+    margin-left: 30px;
 }
 
 .share-link{
@@ -73,23 +82,46 @@
 }
 
 .share-link input{
-    font-size: 25px;
-    padding: 10px;
-    border-radius: 10px;
+    font-size: 19px;
+    padding: 8px;
+    border-radius: 5px;
     outline: none;
     border: 1px solid gray;
-    width: 280px;
+    width: 240px;
+    opacity: 0.8;
 }
 
 .share-link button{
-    background-color: tomato;
+    background-color: rgb(224, 82, 82);
     color: white;
     margin-left: 15px;
     border-radius: 10px;
-    padding: 5px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.share-btn button{
-    font-size: 25px;
+.desc span{
+    margin-top: 20px;
+}
+
+.share-btn{
+    margin-top: 20px;
+    display: flex;
+}
+
+.google-play{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.google-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-store{
+    cursor: pointer;
+    margin-left: 100px;
 }
