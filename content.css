@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
 
-.card{
+.card {
     top: 30px;
     margin-top: 20px;
     width: 55%;
@@ -13,19 +13,19 @@
     position: relative;
 }
 
-.card img{
-    height:250px;
+.card img {
+    height: 250px;
     width: 400px;
     border-radius: 20px;
     outline: 1px solid rgb(213, 198, 198);
 }
 
-.card span{
+.card span {
     position: absolute;
     left: 0;
     bottom: 4px;
     background-color: white;
-    width: 36%;
+    width: 36.3%;
     color: rgb(77, 76, 76);
     padding: 10px;
     border-radius: 20px;
@@ -33,10 +33,10 @@
     border-top-left-radius: 0;
 }
 
-.zomato-app{
+.zomato-app {
     display: flex;
     margin-top: 60px;
-    height: 800px;
+    height: 500px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.desc{
+.desc {
     /* border: 2px solid; */
     width: 23%;
     display: flex;
@@ -53,11 +53,11 @@
     margin-left: 36px;
 }
 
-.desc h1{
+.desc h1 {
     font-size: 45px;
 }
 
-#desc-app{
+#desc-app {
     margin: 15px 0;
     width: 100%;
     color: rgb(116, 116, 116);
@@ -68,20 +68,20 @@
     font-size: 19px;
 }
 
-.form label{
+.form label {
     margin-left: 5px;
 }
 
-#contactPhone{
+#contactPhone {
     margin-left: 30px;
 }
 
-.share-link{
+.share-link {
     display: flex;
     margin-top: 20px;
 }
 
-.share-link input{
+.share-link input {
     font-size: 19px;
     padding: 8px;
     border-radius: 5px;
@@ -91,7 +91,7 @@
     opacity: 0.8;
 }
 
-.share-link button{
+.share-link button {
     background-color: rgb(224, 82, 82);
     color: white;
     margin-left: 15px;
@@ -100,28 +100,64 @@
     font-size: 18px;
 }
 
-.desc span{
+.desc span {
     margin-top: 20px;
 }
 
-.share-btn{
+.share-btn {
     margin-top: 20px;
     display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-.google-play{
+.google-play {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    border-radius: 6px;
     display: flex;
+    background-color: black;
 }
 
-.google-text{
+.google-text {
     display: flex;
     flex-direction: column;
 }
 
-.app-store{
+#get-google-play{
+    font-weight: 600;
+    font-size: 10px;
+}
+
+#google-play-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.app-store {
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     margin-left: 100px;
+}
+
+.play-image img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.apple-image img{
+    height: 25px;
+    margin-right: 10px;
+    filter: invert(100%);
 }
