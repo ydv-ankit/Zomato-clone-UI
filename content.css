@@ -180,14 +180,33 @@
 }
 
 .top-bar{
-    height: 200px;
-    width: 60%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+footer{
+    width: 60%;
+    margin: auto;
+    height: 500px;
 }
 
 .top-bar select{
     height: 40px;
     padding: 10px;
+}
+
+.kjdhkvd{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid; */
+}
+.mid-text{
+    display: flex;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    width: 20%;
 }
