@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .content {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -96,8 +97,14 @@
     color: white;
     margin-left: 15px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.share-link button:hover{
+    background-color: rgb(255, 42, 42);
 }
 
 .desc span {
@@ -160,4 +167,27 @@
     height: 25px;
     margin-right: 10px;
     filter: invert(100%);
+}
+
+.options h1{
+    font-size: 50px;
+}
+
+.options{
+    height: 600px;
+    width: 70%;
+    margin: auto;
+}
+
+.top-bar{
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar select{
+    height: 40px;
+    padding: 10px;
 }
